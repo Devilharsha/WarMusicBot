@@ -49,7 +49,7 @@ async def _human_time_duration(seconds):
 
 
 @Client.on_message(
-    command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
+    command(["fstart", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
@@ -71,7 +71,7 @@ async def start_(client: Client, message: Message):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ info", url=f"https://t.me/wrrlegend"),
+                    InlineKeyboardButton("❤️ info", url=f"https://t.me/NovusUpdates"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -83,7 +83,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 HELP", url="https://t.me/warbotzsupport"
+                        "🌐 HELP", url="https://t.me/NovusSupport"
                     )
                 ],
             ]
