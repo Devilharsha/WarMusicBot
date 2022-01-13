@@ -8,9 +8,9 @@
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/TheWarBotZ",
-    "repository": "https://github.com/xAbhish3k/warmusicbot",
-    "success_url": "https://t.me/xAbhish3k",
+    "website": "https://t.me/NovusUpdates",
+    "repository": "https://github.com/Devilharsha/WarMusicBot",
+    "success_url": "https://t.me/harshahero",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
